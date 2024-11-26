@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+.navbar{
+    margin-bottom: 50px;
+    padding: 20px;
+}
+.navbar__info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar__info h1{
+    cursor: pointer;
+}
+.footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 20px;
+    color: black;
+    text-align: center;
+}
+.footer a{
+    text-decoration: none;
+    margin-right: 6px;
+}
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+.main .main__info{
+    padding: 20px;
+    border: 1px solid;
+    border-radius: 15px;
+}
+.main .main__info img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.main .main__info h5{
+    margin-bottom: 5px;
+}
+.main .main__info button{
+    width: 100%;
+    border: none;
+    padding: 5px;
+    background-color: blue;
+    color: #fff;
+    cursor: pointer;
+
+}
+.main .main__info button:hover{
+    background-color: rgb(47, 47, 146);
+    transition: 0.5s;
+}
+.form{
+    position: relative;
+}
+.form .form__show{
+    position: absolute;
+    right: 10px;
+    top: -25px;
+    padding: 8px;
+    background-color: blue;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 15px;
+    border: none;
+}
+.form .form__show:hover{
+    background-color: rgb(47, 47, 146);
+    transition: 0.5s;
+}
+.form__infos{
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: aqua;
+}
+.form__infos h2{
+    margin-bottom: 15px;
+    font-size: 20x;
+}
+.form__infos .form__malumot{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.form__infos .form__malumot button{
+    background-color: blue;
+    color: #fff;
+    padding: 8px;
+    cursor: pointer;
+    border-radius: 15px;
+}
+.form__infos .form__malumot button:hover{
+    background-color: rgb(47, 47, 146);
+    transition: all 0.5s;
+}
+.form__infos .form__malumot div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.form__infos .form__malumot div input{
+    width: 250px;
+    height: 30px;
+}
