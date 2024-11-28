@@ -29,7 +29,12 @@ function FormList({ setData }) {
       },
     ]);
 
-    setForm(false); // Formni yopish
+    setForm(false); 
+    setUrl("")
+    setName("")
+    setAge("")
+    setFormm("")
+    setJob("")
   };
 
   return (
