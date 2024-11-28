@@ -1,7 +1,7 @@
 
 
 
-function Foorer() {
+function Footer() {
   return (
     <div className="footer">
       <p> <a href="https://t.me/SOLO_0519">Abdurahmon:</a>Wep developer</p>
@@ -9,4 +9,4 @@ function Foorer() {
   )
 }
 
-export default Foorer
+export default Footer
