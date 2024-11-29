@@ -1,11 +1,13 @@
+// hooklar
+import { useState } from "react";
+
+
 // components
 import Navbar from "./components/navbar";
 import Footer from "./components/foorer";
 import Main from "./components/Main";
 import FormList from "./components/form/FormList";
 
-// hooklar
-import { useState } from "react";
 
 
 
