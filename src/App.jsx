@@ -3,8 +3,9 @@ import { useState } from "react";
 
 
 // components
-import Navbar from "./components/navbar";
-import Footer from "./components/foorer";
+import Navbar from "./components/Navbar";
+
+import Footer from "./components/Foorer";
 import Main from "./components/Main";
 import FormList from "./components/form/FormList";
 
